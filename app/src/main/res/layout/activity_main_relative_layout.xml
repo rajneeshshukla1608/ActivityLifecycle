@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:padding="8dp"
+        android:text="Android Development is an Art"
+        android:textColor="#0d47a1"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:padding="10dp"
+        android:text="android is fun"
+        android:textColor="#d84315"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtLayoutHeader"/>
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/tony_stark"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#0091ea"
+        android:text="Click here"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name here"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/txtLayoutSubHeader"
+        android:inputType="textPassword"/>
+
+</RelativeLayout>

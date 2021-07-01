@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The avengers</string>
+    <string name="new_Name_App">Sign</string>
+    <string name="mobile_number">Enter Mobile Number</string>
+    <string name="password">Enter Password</string>
+    <string name="login">LogIn</string>
+    <string name="forgotpassword">Forgot password</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+</resources>
